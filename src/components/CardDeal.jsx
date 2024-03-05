@@ -1,5 +1,6 @@
 import styles, { layout } from "../style";
 import Button from "./Button";
+import CardImage from "../assets/card.png";
 const CardDeal = () => (
   <section className={layout.section}>
     <div
@@ -22,7 +23,7 @@ const CardDeal = () => (
       data-aos="fade-left"
       data-aos-delay="1000"
     >
-      <img src="src/assets/card.png" alt="card" className="w-[100%] h-[100%]" />
+      <img src={CardImage} alt="card" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
